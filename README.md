@@ -1,10 +1,8 @@
 # ECharts leaflet extension
 
-[![Build Status](https://travis-ci.org/gnijuohz/echarts-leaflet.svg?branch=master)](https://travis-ci.org/gnijuohz/echarts-leaflet)
-
 ## Install
 
-`npm i echarts-leaflet`
+`npm i --save  @innolab.global/echarts-leaflet`
 
 ## Usage
 
@@ -28,7 +26,7 @@ import echarts from 'echarts/lib/echarts';
 import 'echarts/lib/chart/scatter';
 import 'echarts/lib/chart/effectScatter';
 
-import 'echarts-leaflet';
+import '@innolab.global/echarts-leaflet';
 ```
 
 See [this example](./example/leaflet-single-layer.html). To run it, use `parcel leaflet-single-layer.html`. The usage of parcel can be found [here](https://parceljs.org/).
@@ -104,6 +102,7 @@ If you don't specify a label for a tile, it won't show up in the layer control. 
 }
 ```
 
+You may also include leaftlet option as usual, for more information, please refer to [leaflet](https://leafletjs.com/index.html)
 
 ## Demo
 
@@ -119,6 +118,7 @@ If you don't specify a label for a tile, it won't show up in the layer control. 
 - [Jing Zhou](https://github.com/gnijuohz)
 - [UltramanWeiLai](https://github.com/UltramanWeiLai)
 - [Poyoman39](https://github.com/Poyoman39)
+- [JY Liu](https://github.com/ljieyao)
 
 ## License
 
