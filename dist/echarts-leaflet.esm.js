@@ -142,7 +142,7 @@ LeafletCoordSys.create = function (ecModel, api) {
       // Not support IE8
       mapRoot.classList.add('ec-extension-leaflet');
       root.appendChild(mapRoot);
-      var _map = leafletModel.__map = L.map(mapRoot);
+      var _map = leafletModel.__map = L.map(mapRoot, leafletModel.option);
       var tiles = leafletModel.get('tiles');
       var baseLayers = {};
       var baseLayerAdded = false;
